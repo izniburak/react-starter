@@ -1,0 +1,40 @@
+// Override default variables before the import
+$body-bg: #fff;
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+main {
+  font-size: 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & > header {
+    height: 56px;
+  }
+
+  & > section {
+    display: flex;
+    flex: 1;
+  }
+
+  & > footer {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 1em;
+    background-color: #eee;
+  }
+}
+
+.content-wrap {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.error-page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "react-app",
+  "env": {
+    "commonjs": true,
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "error",
+    "strict": ["error", "global"],
+    "curly": "warn"
+  }
+}
